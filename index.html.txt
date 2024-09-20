@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubho Durga Puja</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Subho Durga Puja!</h1>
+        <p>May Maa Durga bless you with peace, prosperity, and happiness</p>
+    </header>
+    <div class="whatsapp-share">
+    <a href="https://api.whatsapp.com/send?text=Check%20this%20out!" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="Share on WhatsApp">
+    </a>
+</div>
+
+    <main>
+        <section class="goddess-image">
+            <img src="https://example.com/durga-image.jpg" alt="Goddess Durga">
+        </section>
+        
+        <section class="message">
+            <h2>Message of the Day</h2>
+            <p>On this auspicious occasion, let the divine energy of Maa Durga empower you with strength, wisdom, and courage.</p>
+        </section>
+        
+        <section class="countdown">
+            <h2>Countdown to Durga Puja</h2>
+            <div id="timer">
+                <div><span id="days"></span> Days</div>
+                <div><span id="hours"></span> Hours</div>
+                <div><span id="minutes"></span> Minutes</div>
+                <div><span id="seconds"></span> Seconds</div>
+            </div>
+        </section>
+
+        <section class="durga-mantra">
+            <h2>Durga Mantra</h2>
+            <p>"Ya Devi Sarva Bhuteshu, Shakti Rupena Samsthita"</p>
+            <p>"Namastasyai Namastasyai Namastasyai Namo Namaha"</p>
+            <audio controls>
+                <source src="https://example.com/durga-mantra.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section class="festive-gallery">
+            <h2>Durga Puja Celebration Gallery</h2>
+            <div class="gallery">
+                <img src="https://example.com/gallery1.jpg" alt="Puja Celebration 1">
+                <img src="https://example.com/gallery2.jpg" alt="Puja Celebration 2">
+                <img src="https://example.com/gallery3.jpg" alt="Puja Celebration 3">
+                <img src="https://example.com/gallery4.jpg" alt="Puja Celebration 4">
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Amit Halder. All rights reserved.</p>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+    <!-- Floating Durga Icon -->
+    <div class="floating-icon">
+        <img src="https://example.com/durga-icon.png" alt="Maa Durga">
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
