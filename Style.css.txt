@@ -1,0 +1,191 @@
+/* Existing styles... */
+
+
+
+header {
+    text-align: center;
+    background-color: #ffeb3b;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+}
+
+.goddess-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.message {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.countdown {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#timer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5em;
+}
+
+.durga-mantra {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.festive-gallery {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.festive-gallery .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.festive-gallery .gallery img {
+    max-width: 100%;
+    height: auto;
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.social-media a {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.floating-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.floating-icon img {
+    width: 50px;
+    height: 50px;
+}
+.whatsapp-share {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-share img {
+    width: 40px; /* Small size */
+    height: 40px;
+    border-radius: 50%; /* Circular icon */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-share img:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    #timer {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .festive-gallery .gallery img {
+        width: calc(100% - 10px);
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    .floating-icon img {
+        width: 40px;
+        height: 40px;
+    }
+}
+/* Modern and advanced background animation */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: linear-gradient(270deg, #ff5f6d, #ffc371, #c3cfe2, #667eea, #764ba2, #2b2d42, #ef233c, #d90429); /* Advanced gradient colors */
+    background-size: 1600% 1600%; /* Larger size for smooth transition */
+    animation: gradientShift 20s ease infinite; /* Smooth animation */
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* The rest of your existing styles... */
+
+@media (max-width: 768px) {
+    .kans-grass {
+        width: 80px; /* Adjust size for smaller screens */
+        height: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .kans-grass {
+        width: 60px; /* Further adjust size for very small screens */
+        height: 60px;
+    }
+}
+
